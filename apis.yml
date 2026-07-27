@@ -1,8 +1,25 @@
 aid: hatcheri
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hatcheri.png
 name: Hatcheri
-description: 'Hatcheri is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Hatcheri (Hatcheri Foods) is a food-focused incubator-accelerator based in San Leandro,
+  California that partners with emerging food and beverage brands to build and scale them. Founded in 2013,
+  it operates through three arms: Hatcheri Brands (leading day-to-day operations alongside founders),
+  Hatcheri Advisory Services (hands-on strategic support across supply chain, marketing, sales, financial
+  management, food safety, and product innovation), and Hatcheri Capital (investment and funding partnerships).
+  Portfolio and partner brands include Sonoma Gourmet, Snapdragon, Fra'' Mani, Sukhi''s, and Sonoma Specialty
+  Foods. Backed by Norwest Venture Partners. Hatcheri publishes no public developer API, SDKs, or technical
+  documentation; this profile is a company/provider identity record in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/hatcheri/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Food
+- Food and Beverage
+- Consumer Packaged Goods
+- Incubator
+- Accelerator
+- Venture Backed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hatcheri-domain-security.yml
 - type: Website
   url: https://hatcheri.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
